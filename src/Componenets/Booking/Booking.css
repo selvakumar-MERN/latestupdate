@@ -1,0 +1,54 @@
+.container{
+    width: 80%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    border: 1px solid lightgray;
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    gap: 10px;
+    flex-wrap: nowrap;
+    margin: 10px 0 0 0;
+    
+}
+.date-area{
+    display: flex;
+    gap: 10px;
+    margin: 1rem 1rem;
+}
+.date-area input{
+    padding: 0.4rem;
+    
+}
+.aminities{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 1rem;
+}
+.aminities .card .icon{
+    color:lightgreen
+}
+.time{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 1rem;
+}
+.check-button{
+    background-color: royalblue;
+    padding: 0.5rem;
+    border: none;
+    color: white;
+}
+table{
+    width: 100%;
+}
+.table{
+    margin: 10px 0 0 0 ;
+}
+select {
+    padding: 4px;
+    margin: 5px 0 0 0;
+}
